@@ -11,7 +11,7 @@ app = Flask(__name__)
 app.config['MONGO_DBNAME'] = 'database'
 
 # URI of database
-app.config['MONGO_URI'] = 'mongodb+srv://admin:moninananM4!@cluster0-qezhz.mongodb.net/database?retryWrites=true&w=majority'
+app.config['MONGO_URI'] = 'YOUR URI HERE'
 
 mongo = PyMongo(app)
 
